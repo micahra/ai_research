@@ -39,6 +39,23 @@ Here is a breakdown of why safetensors is crucial for LLMs, grouped by its main 
 
 # Tools
 
+## Llama.cpp
+
+**llama.cpp** is an open-source software library written in **C/C++** that enables efficient, local execution of Large Language Models (LLMs). Created by **Georgi Gerganov**, its primary objective is to run advanced models like Meta's LLaMA with **minimal setup and state-of-the-art performance** across diverse hardware environments.
+
+### Core Features
+
+* **No-Dependency Design**: It is built as a plain C/C++ implementation without heavy external library dependencies.
+* **Apple Silicon Optimization**: It heavily utilizes ARM NEON, Accelerate, and Metal frameworks for exceptional performance on Mac hardware.
+* **Broad Architecture Support**: It supports AVX, AVX2, and AVX512 acceleration for x86 architectures.
+* **Flexible Quantization**: It supports 1.5-bit, 2-bit, 3-bit, 4-bit, 5-bit, 6-bit, and 8-bit integer quantization, which dramatically reduces memory usage and lowers the hardware barrier to run large models.
+* **Hybrid Execution**: It features CPU/GPU co-execution to split model workloads, allowing systems with limited VRAM to leverage both system memory and graphics cards.
+
+### Supported Formats
+
+The project natively uses the **GGUF** (GPT-Generated Unified Format) file structure, which packs the model configuration, vocabulary, and quantized weights into a single file for seamless distribution and loading.
+
+
 ## Parsec
 
 **Parsec for Windows** is a proprietary, **high-performance remote desktop application** and desktop-capturing software primarily optimized for **ultra-low latency video streaming, gaming, and real-time creative work**. 
