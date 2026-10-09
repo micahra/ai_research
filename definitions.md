@@ -1,7 +1,10 @@
+# Purpose
+
+AI output of definitions of various concepts used throughout this documentation project. For personal recollectio
 
 # Definitions
 
-AI output of definitions of various concepts used throughout this documentation project
+
 
 
 

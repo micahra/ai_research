@@ -1,7 +1,10 @@
-Streps are for empero-ai/Qwythos-9B-Claude-Mythos-5-1M HuggingFace repo
+# Setup Instructions
 
-Steps to run locally:
-1. run the start_container.sh script first
+Steps are for empero-ai/Qwythos-9B-Claude-Mythos-5-1M HuggingFace repo
+
+## Running locally
+
+1. Run the start_container.sh script first
 2. run interactive.py to start the local python interactive terminal
 
 Optionally, run multimodal_chat.py to run the Interactive Image+Text Chat
