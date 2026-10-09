@@ -9,4 +9,4 @@ Steps are for empero-ai/Qwythos-9B-Claude-Mythos-5-1M HuggingFace repo
 
 Optionally, run multimodal_chat.py to run the Interactive Image+Text Chat
 
-Optionally, run app.py to run interactive web ui in the form of a Streamlit Chat
+Optionally, run \Streamlit\run_streamlit.py to start interactive web ui in the form of a Streamlit Chat
